@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:wallpaper/screens/Fullscreen.dart';
+import 'package:wallpaper/screens/fullscreen.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -42,7 +42,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Wall-E")),
+        title: const Center(child: Text("Wall-PAPER-E")),
         backgroundColor: Colors.deepPurple,
       ),
       body: Column(
